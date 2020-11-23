@@ -13,7 +13,7 @@ import men1 from './assets/men1.png';
 import men2 from './assets/men2.png';
 import men3 from './assets/men3.png';
 import men4 from './assets/men4.png';
-import avone from './assets/avone.png';
+// import avone from './assets/avone.png';
 import banner from './assets/banner.png';
 import './App.css';
 
@@ -37,8 +37,9 @@ class App extends React.Component{
                <i class="lni lni-cart"></i>
              </div>
           </div>
-          <div className="bgimage">
+          <div className="bgimage" >
               {/* <img src={headerimg} alt="header" /> */}
+             <h1>geeeeeeeeeeeeeeelkjbgh</h1>
           </div>
           <div className="category">
              <div>
@@ -71,7 +72,7 @@ class App extends React.Component{
           <div>
             <h3>AVONE STYLES</h3>
             <p>Choose Your Favourite Color</p>
-            <img src={avone} alt="avone-styles" />
+            {/* <img src={avone} alt="avone-styles" /> */}
           </div>
           <div className="banner">
             <img src={banner} alt="banner" />
