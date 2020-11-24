@@ -113,7 +113,7 @@ input{
   }
   img{
     object-fit: cover;
-    width: 80%;
+    width: 100%;
   }
   .footer{
     display: flex;
