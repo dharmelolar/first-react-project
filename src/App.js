@@ -39,13 +39,13 @@ class App extends React.Component{
              </div>
           </div>
           <div className="bgimage" >
-              <div className="bg-image-text">
+              {/* <div className="bg-image-text">
                   <h4>NEW TRENDS</h4>
                   <h1>COLLUSION</h1>
                   <h4>An exclusive selection of this season's trends.</h4>
                   <button>DISCOVER</button>
                   <button>SHOP NOW</button>
-              </div>
+              </div> */}
           </div>
           <div className="category">
             <img src={category} alt="category" />
@@ -87,7 +87,7 @@ class App extends React.Component{
               <p>Let us take your online shop to new dimension in </p>
               <p>success!</p>
               <p>Comilla, Bangladesh 3500</p>
-              <p>kawsarahmed0210@gmail.com</p>
+              <p className="gmail">kawsarahmed0210@gmail.com</p>
               <p>01647470457</p>
               <i class="lni lni-facebook-oval"></i>
               <i class="lni lni-instagram"></i>
@@ -99,27 +99,30 @@ class App extends React.Component{
                <span> <input type="text" placeholder="Your Email Address"/></span>
 
               <div>
-                   <p>SHOP</p>
+                   <h4>SHOP</h4>
                    <p>Shop</p>
                    <p>Collection</p>
                    <p>Outlet</p>
                    <p>Lookbook</p>
               </div>
               <div>
-                   <p>HELP</p>
+                   <h4>HELP</h4>
                    <p>FAQ</p>
                    <p>Privacy Policy</p>
                    <p>Terms and Conditions</p>
-                   <p>Returns and Exchannges</p>
+                   <p>Returns and Exchanges</p>
               </div>
               <div>
-                   <p>ABOUT</p>
+                   <h4>ABOUT</h4>
                    <p>Journal</p>
                    <p>Our Story</p>
                    <p>Contact</p>
                    <p>Store Location</p>
               </div>
             </div>
+          </div>
+          <div className="copyright">
+            <p>Copyright © 2020 . Your company name  All rights reserved</p>
           </div>
       </div>
     )
