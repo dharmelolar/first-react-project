@@ -1,10 +1,11 @@
 
 import React from 'react';
 // import headerimg from './assets/header-img.png';
-import Group1 from './assets/category-img1.png';
-import Group2 from './assets/category-img2.png';
-import Group3 from './assets/category-img3.png';
-import Group4 from './assets/category-img4.png';
+import category from './assets/CATAGORY.png';
+// import Group1 from './assets/category-img1.png';
+// import Group2 from './assets/category-img2.png';
+// import Group3 from './assets/category-img3.png';
+// import Group4 from './assets/category-img4.png';
 import women1 from './assets/women1.png';
 import women2 from './assets/women2.png';
 import women3 from './assets/women3.png';
@@ -13,8 +14,8 @@ import men1 from './assets/men1.png';
 import men2 from './assets/men2.png';
 import men3 from './assets/men3.png';
 import men4 from './assets/men4.png';
-// import avone from './assets/avone.png';
-import banner from './assets/banner.png';
+import avone from './assets/avone.png';
+// import banner from './assets/banner.png';
 import './App.css';
 
 class App extends React.Component{
@@ -38,20 +39,20 @@ class App extends React.Component{
              </div>
           </div>
           <div className="bgimage" >
-              {/* <img src={headerimg} alt="header" /> */}
-             <h1>geeeeeeeeeeeeeeelkjbgh</h1>
+              <div className="bg-image-text">
+                  <h4>NEW TRENDS</h4>
+                  <h1>COLLUSION</h1>
+                  <h4>An exclusive selection of this season's trends.</h4>
+                  <button>DISCOVER</button>
+                  <button>SHOP NOW</button>
+              </div>
           </div>
           <div className="category">
-             <div>
-                <img src={Group3} alt="category"className="group3" />
-                <img src={Group4} alt="category" className="group4" />
-                <img src={Group2} alt="category" className="group2" />
-             </div>
-              <img src={Group1} alt="category" className="group" />
+            <img src={category} alt="category" />
           </div>
           <div className="women-category">
               <h3>WOMEN CATEGORY</h3>
-              <p>Shop our new arrivals from established brands</p>
+              <p className="p-text">Shop our new arrivals from established brands</p>
               <div className="women-category-img">
                   <img src={women1} alt="women-catergory" />
                   <img src={women2} alt="women-catergory" />
@@ -61,7 +62,7 @@ class App extends React.Component{
           </div>
           <div className="men-category">
               <h3>MEN CATEGORY</h3>
-              <p>Shop our new arrivals from established brands</p>
+              <p className="p-text">Shop our new arrivals from established brands</p>
               <div className="men-category-img">
                   <img src={men1} alt="women-catergory" />
                   <img src={men2} alt="women-catergory" />
@@ -69,13 +70,15 @@ class App extends React.Component{
                   <img src={men4} alt="women-catergory" />
               </div>
           </div>
-          <div>
+          <div className="avone">
             <h3>AVONE STYLES</h3>
-            <p>Choose Your Favourite Color</p>
-            {/* <img src={avone} alt="avone-styles" /> */}
+            <p className="p-text">Choose Your Favourite Color</p>
+            <div className="avone-img">
+              <img src={avone} alt="avone-styles" />
+            </div>
           </div>
           <div className="banner">
-            <img src={banner} alt="banner" />
+            {/* <img src={banner} alt="banner" /> */}
           </div>
           <div className="footer">
             <div className="left">
