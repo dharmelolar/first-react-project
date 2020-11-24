@@ -112,7 +112,7 @@ input{
     align-items: center;
   }
   img{
-    max-width: 100%;
+    max-width: 80%;
   }
   .footer{
     display: flex;
