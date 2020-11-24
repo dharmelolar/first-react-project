@@ -111,9 +111,9 @@ input{
     flex-direction: column;
     align-items: center;
   }
-  img{
-    object-fit: cover;
-    width: 100%;
+  .category,.avone-img{
+    width: 400px;
+    height: 400px;
   }
   .footer{
     display: flex;
